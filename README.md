@@ -5,7 +5,7 @@ The purpose of this new analysis is twofold:
 ---
 1. The Number of Retiring Employees by Title
    * Using the ERD created during the completion of the asynchronous module as a reference, combined with our knowledge of SQL queries, the point of this analysis was to create a Retirement Titles table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955. Further, since some employees may have multiple titles in the database--for example, due to promotions--the DISTINCT ON clause was used to create a table containing only the most recent title of each employee. Lastly, the COUNT function was used to create a final table, based on the table just mentioned above, which displays the total number of employees set to retire in the near future for each department. This table was created to allow PH executives to gauge approx. how many employees are set to retire from each department. 
-  * Moreover, having this table allows PH executives to appropriately plan, and execute any preventitive action necessary to avoid any of their departments from experience declines in productivity due to a shortage of staff. The final table was created using the following queries:
+   * Moreover, having this table allows PH executives to appropriately plan, and execute any preventitive action necessary to avoid any of their departments from experience declines in productivity due to a shortage of staff. The final table was created using the following queries:
 #### Query One: Creating a table that displays all employees eligible for retirement
 ![](Images/del_1_q_1.png)
   * The above query creates a table containing all employees eligible for retirement as per the parameters specified to us by the assignment instructions. 
