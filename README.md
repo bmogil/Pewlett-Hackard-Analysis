@@ -1,7 +1,7 @@
 # Pewlett-Hackard(PH)-Analysis
 ---
 ## Overview/Results
-The purpose of this new analysis is twofold:
+The Purpose of this New Analysis is Twofold:
 ---
 1. The Number of Retiring Employees by Title
    * Using the ERD created during the completion of the asynchronous module as a reference, combined with our knowledge of SQL queries, the point of this analysis was to create a Retirement Titles table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955. Further, since some employees may have multiple titles in the database--for example, due to promotions--the DISTINCT ON clause was used to create a table containing only the most recent title of each employee. Lastly, the COUNT function was used to create a final table, based on the table just mentioned above, which displays the total number of employees set to retire in the near future for each department. This table was created to allow PH executives to gauge approx. how many employees are set to retire from each department. 
