@@ -15,3 +15,5 @@ INTO retirement_info
 FROM employees
 WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31');
+
+---*Note: Forgot to copy a list of rest of queries used during module. 
